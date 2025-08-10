@@ -45,7 +45,7 @@
 
 물리학 및 공학 분야에서는 다양한 목적에 따라 여러 몬테카를로 시뮬레이션 툴킷이 사용됩니다. 각 분야에서 선호되는 툴킷은 다음과 같습니다.
 
--   **고에너지물리/입자물리**: **GEANT4**, Delphes
+-   **고에너지물리**: **GEANT4**, Delphes
 -   **핵공학 (원자력)**: MCNP
 -   **핵물리 응용**: PHITS
 -   **방사선 치료**: openTOPAS
@@ -80,6 +80,7 @@ voxel_materials_lut = [
 ### 사전 요구사항 (Prerequisites)
 
 -   Python 3.8 이상
+-   Rocky Linux 9.6
 -   OpenGATE 10.0 이상 (Geant4 포함)
 -   필요한 Python 라이브러리: `pydicom`, `numpy`, `matplotlib`, `scikit-image`, `simpleitk`, `pyvista`
 
